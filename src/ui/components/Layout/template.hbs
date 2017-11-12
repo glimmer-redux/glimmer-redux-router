@@ -1,0 +1,29 @@
+<div class="container">
+  <Router>
+    <nav class="sidebar">
+      <ul>
+        <li>
+          <Link @path="/">Home</Link>
+        </li>
+        <li>
+          <Link @path="/hello">Hello</Link>
+        </li>
+      </ul>
+      <Route @path="/hello" as |match|>
+        {{match.path}} also render content in the sidebar!
+      </Route>
+    </nav>
+
+    <section class="content">
+      <Route @path="/" as |match|>
+        <h1>Welcome to glimmer-router!</h1>
+        <div>I am the content of the route matching '{{match.path}}'</div>
+      </Route>
+
+      <Route @path="/hello" as |match|>
+        <h1>Hello!</h1>
+        <div>I am the content of the route matching '{{match.path}}'</div>
+      </Route>
+    </section>
+  </Router>
+</div>

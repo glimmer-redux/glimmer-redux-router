@@ -7,7 +7,7 @@ module('Component: GlimmerReduxRouter', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
-    await this.render(hbs`<GlimmerReduxRouter />`);
+    await this.render(hbs`<Layout />`);
     assert.equal(this.containerElement.textContent, 'Welcome to Glimmer!\n');
   });
 });

@@ -14,6 +14,6 @@ app.registerInitializer({
   }
 });
 
-app.renderComponent('GlimmerReduxRouter', containerElement, null);
+app.renderComponent('Layout', containerElement, null);
 
 app.boot();
