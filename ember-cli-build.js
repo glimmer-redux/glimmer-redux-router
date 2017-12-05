@@ -9,7 +9,7 @@ module.exports = function(defaults) {
     rollup: {
       plugins: [
         glimmerRedux({
-          'middleware': './src/middleware/index.js'
+          'middleware': './src/middleware/index.ts'
         }),
         commonjs()
       ]

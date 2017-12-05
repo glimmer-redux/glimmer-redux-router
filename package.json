@@ -35,9 +35,9 @@
   },
   "private": true,
   "dependencies": {
-    "glimmer-redux": "^0.1.0",
+    "glimmer-redux": "^0.1.1",
     "history": "^4.7.2",
     "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-glimmer-redux": "^0.0.4"
+    "rollup-plugin-glimmer-redux": "^1.0.1"
   }
 }

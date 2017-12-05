@@ -1,4 +1,4 @@
-import makeHistorySingleton from '../singleton';
+import makeHistorySingleton from './singleton';
 
 let history = makeHistorySingleton();
 

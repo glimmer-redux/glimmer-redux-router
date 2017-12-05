@@ -1,6 +1,6 @@
 import { connect } from 'glimmer-redux';
 import Component, { tracked } from '@glimmer/component';
-import makeHistorySingleton from '../../../singleton';
+import makeHistorySingleton from '../../../middleware/singleton';
 
 let history = makeHistorySingleton();
 

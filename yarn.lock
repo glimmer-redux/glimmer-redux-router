@@ -2932,9 +2932,9 @@ git-repo-info@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/git-repo-info/-/git-repo-info-1.4.1.tgz#2a072823254aaf62fcf0766007d7b6651bd41943"
 
-glimmer-redux@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/glimmer-redux/-/glimmer-redux-0.1.0.tgz#e80997b92d00346cbb7f13ca53f48c2ccd1e6759"
+glimmer-redux@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/glimmer-redux/-/glimmer-redux-0.1.1.tgz#fb8d2689e51aba675fb545bf9e4a7ef64f320f8a"
   dependencies:
     redux "^3.7.2"
     redux-thunk "^2.2.0"
@@ -4962,16 +4962,12 @@ rollup-plugin-commonjs@^8.2.6:
     resolve "^1.4.0"
     rollup-pluginutils "^2.0.1"
 
-rollup-plugin-glimmer-redux@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/rollup-plugin-glimmer-redux/-/rollup-plugin-glimmer-redux-0.0.4.tgz#81029e2c396fcf093d3b116e129ebb8aabf38fbc"
+rollup-plugin-glimmer-redux@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/rollup-plugin-glimmer-redux/-/rollup-plugin-glimmer-redux-1.0.1.tgz#a8ac8aa1068ea3e00803f6ba0957b9fe4f16da90"
   dependencies:
-    rollup-plugin-includepaths "^0.2.2"
     rollup-plugin-replace "^2.0.0"
-
-rollup-plugin-includepaths@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.2.tgz#4b688f220aba88c682e3846b653ddd2eb107f1ac"
+    typescript "~2.6.1"
 
 rollup-plugin-node-resolve@^2.0.0:
   version "2.1.1"
@@ -5618,6 +5614,10 @@ typedarray@^0.0.6:
 typescript@^2.2.2:
   version "2.6.1"
   resolved "https://registry.npmjs.org/typescript/-/typescript-2.6.1.tgz#ef39cdea27abac0b500242d6726ab90e0c846631"
+
+typescript@~2.6.1:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
 uc.micro@^1.0.1, uc.micro@^1.0.3:
   version "1.0.3"
